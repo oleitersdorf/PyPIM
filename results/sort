@@ -1,0 +1,95 @@
+.Testing sort with 1024 split into groups of 1024 and int32
+
+Type    Latency Energy
+----------------------
+mask    1032    0
+rw      1032    475136
+logic   8364    139748352
+move    56320   1802240
+total   66748   142025728
+
+.Testing sort with 4096 split into groups of 4096 and int32
+
+Type    Latency Energy
+----------------------
+mask    4124    0
+rw      4106    2293760
+logic   11860   792535040
+move    84992   10223616
+total   105082  805052416
+
+.Testing sort with 16384 split into groups of 16384 and int32
+
+Type    Latency Energy
+----------------------
+mask    16479   0
+rw      16396   10747904
+logic   15964   4266770432
+move    150528  55050240
+total   199367  4332568576
+
+.Testing sort with 65536 split into groups of 65536 and int32
+
+Type    Latency Energy
+----------------------
+mask    65882   0
+rw      65550   49283072
+logic   20676   22103457792
+move    363520  285212672
+total   515628  22437953536
+
+.Testing sort with 262144 split into groups of 262144 and int32
+
+Type    Latency Energy
+----------------------
+mask    263465  0
+rw      262160  222298112
+logic   25996   111158755328
+move    1166336 1434451968
+total   1717957 112815505408
+
+.Testing sort with 1048576 split into groups of 1048576 and int32
+
+Type    Latency Energy
+----------------------
+mask    1053756 0
+rw      1048594 989855744
+logic   31924   546012397568
+move    4328448 7046430720
+total   6462722 554048684032
+
+.Testing sort with 4194304 split into groups of 4194304 and int32
+
+Type    Latency Energy
+----------------------
+mask    4214867 0
+rw      4194324 4362076160
+logic   38460   2631149813760
+move    16927744        33957085184
+total   25375395        2669468975104
+
+.Testing sort with 16777216 split into groups of 16777216 and int32
+
+Type    Latency Energy
+----------------------
+mask    16859246        0
+rw      16777238        19058917376
+logic   45604   12479363022848
+move    67275776        161061273600
+total   100957864       12659483213824
+
+.Testing sort with 67108864 split into groups of 67108864 and int32
+
+Type    Latency Energy
+----------------------
+mask    67436685        0
+rw      67108888        82678120448
+logic   53356   58401958658048
+move    268618752       753766760448
+total   403217681       59238403538944
+
+.
+----------------------------------------------------------------------
+Ran 13 tests in 13089.642s
+
+OK

@@ -1,0 +1,7 @@
+.vscode
+pypim.egg-info/
+pypim/__pycache__/
+pypim/driver.cpython-310-x86_64-linux-gnu.so
+pypim/libsimulator.so
+__pycache__/
+build

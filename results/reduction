@@ -1,0 +1,45 @@
+.Testing reduction with sum on type int32
+
+Type    Latency Energy
+----------------------
+mask    26      0
+rw      1       32
+logic   1588    105839153
+move    1029    2097120
+total   2644    107936305
+
+.Testing reduction with prod on type int32
+
+Type    Latency Energy
+----------------------
+mask    26      0
+rw      1       32
+logic   18564   1568645888
+move    1029    2097120
+total   19620   1570743040
+
+.Testing reduction with sum on type float32
+
+Type    Latency Energy
+----------------------
+mask    26      0
+rw      1       32
+logic   21940   685299623
+move    1029    2097120
+total   22996   687396775
+
+.Testing reduction with prod on type float32
+
+Type    Latency Energy
+----------------------
+mask    26      0
+rw      1       32
+logic   25380   1165409033
+move    1029    2097120
+total   26436   1167506185
+
+.
+----------------------------------------------------------------------
+Ran 4 tests in 2.347s
+
+OK

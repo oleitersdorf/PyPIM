@@ -1,0 +1,225 @@
+.Testing arithmetic with __add__ on type int32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   95      89063424
+move    0       0
+total   97      89063424
+
+.Testing arithmetic with __sub__ on type int32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   98      93323264
+move    0       0
+total   100     93323264
+
+.Testing arithmetic with __mul__ on type int32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   1156    1551892480
+move    0       0
+total   1158    1551892480
+
+.Testing arithmetic with __truediv__ on type int32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   4454    4178247680
+move    0       0
+total   4456    4178247680
+
+.Testing arithmetic with __add__ on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   1367    668532736
+move    0       0
+total   1369    668532736
+
+.Testing arithmetic with __sub__ on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   1372    676855808
+move    0       0
+total   1374    676855808
+
+.Testing arithmetic with __mul__ on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   1582    1148649472
+move    0       0
+total   1584    1148649472
+
+.Testing arithmetic with __truediv__ on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   4166    2979528704
+move    0       0
+total   4168    2979528704
+
+.Testing comparison with __lt__ on type int32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   102     95617024
+move    0       0
+total   104     95617024
+
+.Testing comparison with __le__ on type int32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   123     116654080
+move    0       0
+total   125     116654080
+
+.Testing comparison with __gt__ on type int32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   102     95617024
+move    0       0
+total   104     95617024
+
+.Testing comparison with __ge__ on type int32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   123     116654080
+move    0       0
+total   125     116654080
+
+.Testing comparison with __eq__ on type int32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   115     105971712
+move    0       0
+total   117     105971712
+
+.Testing comparison with __ne__ on type int32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   117     110166016
+move    0       0
+total   119     110166016
+
+.Testing comparison with __lt__ on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   1376    679149568
+move    0       0
+total   1378    679149568
+
+.Testing comparison with __le__ on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   1397    700186624
+move    0       0
+total   1399    700186624
+
+.Testing comparison with __gt__ on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   1376    679149568
+move    0       0
+total   1378    679149568
+
+.Testing comparison with __ge__ on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   1397    700186624
+move    0       0
+total   1399    700186624
+
+.Testing comparison with __eq__ on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   1389    689504256
+move    0       0
+total   1391    689504256
+
+.Testing comparison with __ne__ on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      0       0
+logic   1391    693698560
+move    0       0
+total   1393    693698560
+
+.Testing CORDIC with sin on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      133     278921216
+logic   325884  186181877760
+move    0       0
+total   326019  186460798976
+
+.Testing CORDIC with cos on type float32
+
+Type    Latency Energy
+----------------------
+mask    2       0
+rw      133     278921216
+logic   325884  186181877760
+move    0       0
+total   326019  186460798976
+
+.
+----------------------------------------------------------------------
+Ran 22 tests in 39.216s
+
+OK
