@@ -2,7 +2,7 @@
 ## Overview
 This repository includes the framework proposed in the following paper,
 
-`Anonymous Authors, “PyPIM: Integrating Digital Processing-in-Memory from Microarchitectural Design to Python Tensors,” 2024.`
+`Orian Leitersdorf, Ronny Ronen, Shahar Kvatinsky, “PyPIM: Integrating Digital Processing-in-Memory from Microarchitectural Design to Python Tensors,” Accepted to IEEE/ACM MICRO 2024.`
 
 The framework enables high-level programming of PIM applications with significant ease. The framework benefits from the high
 flexibility of tensor-based Python (e.g., NumPy, PyTorch, TensorFlow) to provide the user with simple operations that can already be executed today (through the simulator backend):
